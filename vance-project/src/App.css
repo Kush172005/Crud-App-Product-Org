@@ -1,0 +1,29 @@
+.background-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 1000000px;
+  opacity: 0.75;
+  background: radial-gradient(50% 50% at 50% 50%, #4602D9 0%, #111 100%);
+  filter: blur(124px);
+  z-index: -1;
+}
+
+
+.background-effect-color {
+  position: absolute;
+  width: 100vw;
+  height: 153vh;
+  background: #111;
+  z-index: -1;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
